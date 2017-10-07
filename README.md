@@ -38,3 +38,5 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ## Accuracy
 Algorithm was run against Dataset 1 in the simulator which is the same as "data/obj_pose-laser-radar-synthetic-input.txt" in the repository. px, py, vx, vy output coordinates have an RMSE <= [.11, .11, 0.52, 0.52] when using the file as shown below:
+
+![jpg](./Docs/EKF_RMSE.jpg)
